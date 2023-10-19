@@ -1,0 +1,7 @@
+services:
+  img:
+    build: .
+    container_name: node-app-container
+    ports:
+      - 5500:5500
+      
